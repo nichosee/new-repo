@@ -59,7 +59,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 html {
 	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
-	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	font-size: 100%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
@@ -690,7 +690,7 @@ Accessibility
 
 .post-excerpts .sticky h1.entry-title,
 .enhanced-excerpts .sticky h1.entry-title {
-	font-size: 2.5em;
+	font-size: 1.8em;
 	margin-bottom: 20px;
 }
 
@@ -717,7 +717,7 @@ Accessibility
 
 .show-full-content-first-post h1.entry-title,
 .show-full-content-first-post-sticky h1.entry-title {
-	font-size: 2.5em;
+	font-size: 1.8em;
 	margin-bottom: 20px;
 }
 
@@ -1363,8 +1363,7 @@ ul.taglist {
 
 body {
 	color: #000000;
-	font: 1.9em Georgia, "Times New Roman", Times, serif;
-	line-height: 1.5;
+	font: 0.8em/1.5em Verdana, Arial, sans-serif
 }
 
 .site-master-logo {
@@ -1570,7 +1569,7 @@ h6 {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 1.8em;
 }
 
 h2 {
